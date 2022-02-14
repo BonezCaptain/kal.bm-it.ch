@@ -1,5 +1,5 @@
 body {
-    background-image:url("Back_G.jpg");
+    background:url("Back_G.jpg") no-repeat fixed center center;
     margin: 10;
     font-family: Arial, Helvetica, sans-serif;
 }
