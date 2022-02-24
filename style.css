@@ -1,15 +1,8 @@
 body {
-    background:url("Back_G.jpg") no-repeat fixed center center;
+    background:url("Code.jpg") no-repeat fixed center center;
     margin: 10;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Style the header */
-.header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
-  }
 
   * {
     box-sizing: border-box;
@@ -18,24 +11,14 @@ body {
   body {
     margin: 0;
   }
-  
-  /* Style the header */
-  .header {
-    background-color: black;
-    color: rgb(46, 189, 46);
-    text-shadow: 2px 2px white;
-    padding: 15px;
-    background: url("RainbowShit.jpg") no-repeat fixed center center;
-    text-align: center;
-  }
-  
-  /* Style the top navigation bar */
+
+  /* Style des Top-Narv-Bars */
   .topnav {
     overflow: hidden;
     background-color: #333;
   }
   
-  /* Style the topnav links */
+  /* Style der topnav links */
   .topnav a {
     float: left;
     display: block;
@@ -50,45 +33,8 @@ body {
     background-color: #ddd;
     color: black;
   }
+  
 
-  /* Create three unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 10px;
-    color: white;
-  }
-  
-  /* Left and right column */
-  .column.side {
-    width: 25%;
-  }
-  
-  /* Middle column */
-  .column.middle {
-    width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column.side, .column.middle {
-      width: 100%;
-    }
-}
 p {
     color: white;
 }
-
-/* Style the footer */
-.footer {
-    background-color:transparent;
-    padding: 20px;
-    text-align: center;
-    background-image: url("RainbowShit.jpg");
-  }
