@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="style.css"
-    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>kal.bm-it.ch</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <head> 
-        <body>   
+        <body>  
+          <script>
+            $(document).ready(function(){
+              $("button").click(function(){
+                $("#div1").fadeToggle();
+                $("#div2").fadeToggle("slow");
+                $("#div3").fadeToggle(3000);
+              });
+            });
+            </script> 
+            <script>
+              displayDate() {
+              document.getElementById("demo").innerHTML = Date();
+            }
+            </script> 
               <div class="topnav">
                 <a href="#">Home</a>
                 <a href="#">News</a>
@@ -16,6 +30,14 @@
               <br>
               <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
           <p id="demo"></p>
+          <button>Click to fade in/out boxes</button>
+          <br>
+          <br>
+          <div id="div1" style="width:80px;height:80px;background-color:red;"></div>
+          <br>
+          <div id="div2" style="width:80px;height:80px;background-color:green;"></div>
+          <br>
+          <div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
         </body>
     </head> 
 </html>
